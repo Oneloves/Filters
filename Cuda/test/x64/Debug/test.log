@@ -1,0 +1,36 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\jeanf\source\repos\test\test>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2017 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\jeanf\source\repos\test\test\kernel.cu" 
+C:/Users/jeanf/source/repos/test/test/kernel.cu(271): warning : transfer of control bypasses initialization of:
+C:/Users/jeanf/source/repos/test/test/kernel.cu(280): warning : transfer of control bypasses initialization of:
+C:/Users/jeanf/source/repos/test/test/kernel.cu(287): warning : transfer of control bypasses initialization of:
+C:/Users/jeanf/source/repos/test/test/kernel.cu(294): warning : transfer of control bypasses initialization of:
+C:/Users/jeanf/source/repos/test/test/kernel.cu(302): warning : transfer of control bypasses initialization of:
+C:/Users/jeanf/source/repos/test/test/kernel.cu(309): warning : transfer of control bypasses initialization of:
+C:/Users/jeanf/source/repos/test/test/kernel.cu(361): warning : transfer of control bypasses initialization of:
+C:/Users/jeanf/source/repos/test/test/kernel.cu(370): warning : transfer of control bypasses initialization of:
+C:/Users/jeanf/source/repos/test/test/kernel.cu(377): warning : transfer of control bypasses initialization of:
+C:/Users/jeanf/source/repos/test/test/kernel.cu(271): warning : transfer of control bypasses initialization of:
+C:/Users/jeanf/source/repos/test/test/kernel.cu(280): warning : transfer of control bypasses initialization of:
+C:/Users/jeanf/source/repos/test/test/kernel.cu(287): warning : transfer of control bypasses initialization of:
+C:/Users/jeanf/source/repos/test/test/kernel.cu(294): warning : transfer of control bypasses initialization of:
+C:/Users/jeanf/source/repos/test/test/kernel.cu(302): warning : transfer of control bypasses initialization of:
+C:/Users/jeanf/source/repos/test/test/kernel.cu(309): warning : transfer of control bypasses initialization of:
+C:/Users/jeanf/source/repos/test/test/kernel.cu(361): warning : transfer of control bypasses initialization of:
+C:/Users/jeanf/source/repos/test/test/kernel.cu(370): warning : transfer of control bypasses initialization of:
+C:/Users/jeanf/source/repos/test/test/kernel.cu(377): warning : transfer of control bypasses initialization of:
+  kernel.cu
+C:/Users/jeanf/source/repos/test/test/kernel.cu(335): warning C4244: 'initialisation' : conversion de 'float' en 'unsigned int', perte possible de données
+C:/Users/jeanf/source/repos/test/test/kernel.cu(336): warning C4244: 'initialisation' : conversion de 'float' en 'unsigned int', perte possible de données
+C:/Users/jeanf/source/repos/test/test/kernel.cu(390): warning C4533: l'initialisation de 'BLOCK' est ignorée par 'goto Error'
+  C:/Users/jeanf/source/repos/test/test/kernel.cu(339): note: voir la déclaration de 'BLOCK'
+  C:/Users/jeanf/source/repos/test/test/kernel.cu(390): note: voir la déclaration de 'Error'
+C:/Users/jeanf/source/repos/test/test/kernel.cu(390): warning C4533: l'initialisation de 'GRID' est ignorée par 'goto Error'
+  C:/Users/jeanf/source/repos/test/test/kernel.cu(338): note: voir la déclaration de 'GRID'
+  C:/Users/jeanf/source/repos/test/test/kernel.cu(390): note: voir la déclaration de 'Error'
+  test.vcxproj -> C:\Users\jeanf\source\repos\test\x64\Debug\test.exe
+  test.vcxproj -> C:\Users\jeanf\source\repos\test\x64\Debug\test.pdb (Partial PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart*.dll" "C:\Users\jeanf\source\repos\test\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart32_91.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart64_91.dll
+          2 fichier(s) copié(s).

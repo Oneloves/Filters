@@ -1,0 +1,27 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\jeanf\source\repos\test\test>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2017 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o x64\Release\kernel.cu.obj "C:\Users\jeanf\source\repos\test\test\kernel.cu" 
+C:/Users/jeanf/source/repos/test/test/kernel.cu(14): warning : variable "i" was declared but never referenced
+C:/Users/jeanf/source/repos/test/test/kernel.cu(137): warning : variable "dev_div" is used before its value is set
+C:/Users/jeanf/source/repos/test/test/kernel.cu(14): warning : variable "i" was declared but never referenced
+C:/Users/jeanf/source/repos/test/test/kernel.cu(137): warning : variable "dev_div" is used before its value is set
+  kernel.cu
+c:\users\jeanf\source\repos\test\test\kernel.cu(137): warning C4700: variable locale 'dev_div' non initialisée utilisée
+  ppm_lib.cpp
+ppm_lib.cpp(16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(207): note: voir la déclaration de 'fopen'
+ppm_lib.cpp(50): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(1195): note: voir la déclaration de 'fscanf'
+ppm_lib.cpp(56): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(1195): note: voir la déclaration de 'fscanf'
+ppm_lib.cpp(90): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(207): note: voir la déclaration de 'fopen'
+  Génération de code en cours
+  All 9 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Fin de la génération du code
+  test.vcxproj -> C:\Users\jeanf\source\repos\test\x64\Release\test.exe
+  test.vcxproj -> C:\Users\jeanf\source\repos\test\x64\Release\test.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart*.dll" "C:\Users\jeanf\source\repos\test\x64\Release\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart32_91.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart64_91.dll
+          2 fichier(s) copié(s).
